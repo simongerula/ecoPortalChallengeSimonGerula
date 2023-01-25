@@ -5,10 +5,18 @@
 
 ### Dependencies
 
-Cypress                                 -> $ npm install --save-dev cypress
-@bahmutov/cypress-esbuild-preprocessor  -> $ npm install --save-dev @bahmutov/cypress-esbuild-preprocessor
-@badeball/cypress-cucumber-preprocessor -> $ npm install --save-dev @badeball/cypress-cucumber-preprocessor
-esbuild                                 -> $ npm install --save-dev esbuild
+Cypress
+> $ npm install --save-dev cypress
+
+@bahmutov/cypress-esbuild-preprocessor
+> $ npm install --save-dev @bahmutov/cypress-esbuild-preprocessor
+
+@badeball/cypress-cucumber-preprocessor
+> $ npm install --save-dev @badeball/cypress-cucumber-preprocessor
+
+esbuild 
+> $ npm install --save-dev esbuild
+
 
 You can install all the packages with $ npm install 
 
