@@ -1,0 +1,19 @@
+{
+  "name": "challenge3",
+  "version": "1.0.0",
+  "description": "Automated scenario on arstechnica website",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:chrome:headed": "cypress run --browser chrome --headed"
+  },
+  "author": "Simon Gerula",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.4.0",
+    "esbuild": "^0.17.4"
+  }
+}
